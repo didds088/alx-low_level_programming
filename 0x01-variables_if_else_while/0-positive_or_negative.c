@@ -1,7 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*main - main block*/
+/**
+ *
+ * main - main block
+ *
+ */
 int main(void)
 {
 	int n;
