@@ -1,8 +1,11 @@
 #include "main.h"
 
 /**
- * print_alphabet a-z
+ * main - Entry point
+ *
+ * Description:print_alphabet a-z
  * using _putchar function
+ *
  */
 
 void print_alphabet(void)
