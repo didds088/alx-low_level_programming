@@ -4,15 +4,17 @@
  * @s: string parameter input
  * Return: 0
  */
-
-int print_rev(char *s)
+void print_rev(char *s)
 {
-	int len;
+	int i = 0;
 
-	len = strlen(s);
-	while (len--)
+	while (s[i])
 	{
-		_putchar(s[len]);
+		i++;
+	}
+	while (i--)
+	{
+		_putchar(s[i]);
 	}
 	_putchar('\n');
 }
